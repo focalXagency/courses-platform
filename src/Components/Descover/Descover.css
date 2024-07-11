@@ -1,0 +1,60 @@
+.ma-section-descover {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 0 100px 0;
+}
+
+.ma-underline-descover {
+    border-bottom: 3px solid #19191C;
+    padding: 3px;
+}
+
+.ma-descover-list {
+    padding: 48px 0 68px 0;
+}
+
+.ma-section-descover h1 {
+    color: #19191C;
+    font-size: 58px;
+    font-weight: 700;
+    width: 594px;
+}
+
+.ma-descover-card {
+    width: 320px;
+    height: 395px;
+}
+
+.ma-descover-card2 {
+    width: 310px;
+    height: 478px;
+    padding-top: 40px;
+
+}
+
+
+.ma-descover-name h3 {
+    color: #19191C;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.ma-descover-name p {
+    color: #6D6D77;
+    font-size: 18px;
+}
+
+@media screen and (max-width:600px) {
+    .ma-section-descover h1 {
+        width: auto !important;
+        text-align: center !important;
+    }
+
+    .ma-descover-card2 {
+        padding-top:0px;
+
+    }
+}

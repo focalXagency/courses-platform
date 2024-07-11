@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+
+.navbar {
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.ma-img-nav {
+    width: 42px;
+    height: 36px;
+
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.ma-brand-nav p {
+    color: #19191C;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.ma-link-nav {
+    color: #19191C !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+}
+
+.ma-link-nav button {
+    display: inline-flex;
+    padding: 12px 37px;
+    color: #EFEFF2;
+    font-weight: 700;
+    line-height: normal;
+    background: #19191C;
+}
+
+.ma-hero-50 {
+    margin-top: 110px;
+}

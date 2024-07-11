@@ -1,0 +1,61 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+  .student {
+    background: var(--Grayscale, #FBFBFC);
+    color: var(--Grayscale, #19191C);
+    font-family: Inter;
+    padding: 100px 8rem;
+  }
+
+  /* h2 */
+  .RO-SectionTitle {
+    color: var(--Grayscale, #19191C);
+    font-family: Inter;
+    font-size: 3.625rem;
+    font-weight: 700;
+    text-align: left;
+    margin: 0;
+  }
+
+  /* h2 and arrow icons */
+  .RO-RecDivH {
+    margin-bottom: 40px;
+  }
+
+  .RO-RecDivH a {
+    align-self: flex-end;
+  }
+
+
+  /* gap between rectangles */
+  .Ro-OurStudentFlex {
+    gap: 1.25rem;
+  }
+
+  
+
+  @media screen and (max-width:992px) {
+    html {
+      font-size: 12px;
+    }
+
+    .Ro-OurStudentFlex {
+      flex-direction: column;
+      margin: auto;
+    }
+
+    a:nth-child(2) {
+      margin-right: 25px;
+    }
+
+  }
+
+  @media screen and (max-width:750px) {
+    .student {
+      padding: 100px 4rem;
+    }
+
+    a:nth-child(2) {
+      margin-right: 0px;
+    }
+  }

@@ -1,0 +1,19 @@
+.ma-all-program h1 {
+    color: #19191C;
+    font-size: 58px;
+    font-weight: 700;
+    padding-bottom: 68px;
+}
+
+.ma-program-underline {
+    width: auto;
+    height: 2px;
+    background: #19191C;
+}
+
+.ma-btn-program {
+    width: 100px !important;
+    color: var(--Grayscale, #EFEFF2);
+    font-size: 18px;
+    font-weight: 700;
+}

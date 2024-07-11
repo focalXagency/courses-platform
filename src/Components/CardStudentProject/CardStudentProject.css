@@ -1,0 +1,25 @@
+.RO-cardSProject{
+    max-width: 300px;
+    width: 100%;
+    background: #FBFBFC;
+    box-sizing: border-box;
+    padding: 30px;
+    margin: auto;
+    
+    
+}
+.RO-cardSProject img{
+    max-width:240px;
+    width: 100%;
+}
+
+.RO-cardSProject h3{
+    color: var(--Grayscale, #19191C);
+font-family: Inter;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.625rem;
+margin: 1.5rem 1rem;
+text-align: center !important;
+}

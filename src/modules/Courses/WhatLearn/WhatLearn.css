@@ -1,0 +1,43 @@
+.ma-What-section {
+    width: 100%;
+    height: 100%;
+    padding-top: 100px !important;
+}
+
+.ma-learn-paragraph2 {
+    width: 519px;
+    color: #EFEFF2;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+.ma-pOne {
+    color: #FBFBFC;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    border: 2px solid #FBFBFC;
+    width: 38px;
+    height: 30px;
+    text-align: center;
+}
+
+.ma-pTwo {
+    color: #FBFBFC;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.ma-pThree {
+    width: 296px;
+    color: #EFEFF2;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+@media screen and (max-width:600px) {
+    .ma-learn-paragraph2,.ma-pThree{width: auto;}
+}

@@ -1,0 +1,106 @@
+.Ro-NotFind {
+     background-color: var(--Accent-Secondary, #DEEFE4);
+     color: var(--Grayscale, #19191C);
+     font-family: Inter;
+     text-align: left;
+     padding: 100px 8rem;
+     position: relative;
+}
+
+/* h2 */
+.RO-SectionTitle {
+     color: var(--Grayscale, #19191C);
+     font-family: Inter;
+     font-size: 3.625rem;
+     font-weight: 700;
+     text-align: left;
+     margin: 0;
+}
+
+/* p */
+.RO-NFindP {
+     margin-top: 28px;
+     color: var(--Grayscale, #19191C);
+     font-family: Inter;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 28px;
+}
+
+/* form */
+.RO-FormNF {
+     margin-top: 27px;
+     display: flex;
+     flex-direction: column;
+     gap: 35px;
+     max-width: 35rem;
+     width: 100%;
+}
+
+/* name and mail */
+.RO-FormNF #name,
+.Ro-NotFind #mail {
+     background-color: transparent;
+     border: none;
+     border-bottom: 2px solid #19191C;
+}
+
+.RO-FormNF #name::placeholder,
+.Ro-NotFind #mail::placeholder {
+     color: #19191C;
+     opacity: 1;
+}
+
+/* 
+button help me */
+.Ro-NotFind button {
+     width: 144px;
+     background-color: #19191C;
+     color: var(--Grayscale, #FBFBFC);
+     margin: 10px 0;
+     font-family: Inter;
+     font-size: 18px;
+     font-weight: 700;
+     border-radius: 0%;
+}
+
+
+/* vector */
+.RO-NFVector {
+     position: absolute;
+     bottom: 30%;
+     right: 50%;
+
+}
+
+@media screen and (max-width:1200px) {
+     .RO-NF-flex {
+          flex-direction: column;
+          gap: 50px;
+     }
+
+     .RO-NFVector {
+          bottom: 50%;
+          right: 15%;
+          transform: rotate(110deg);
+
+     }
+
+}
+
+@media screen and (max-width:992px) {
+     html {
+          font-size: 12px;
+     }
+}
+
+@media screen and (max-width:750px) {
+     .student {
+          padding: 100px 4rem;
+     }
+
+     .RO-NFVector {
+          display: none;
+     }
+}

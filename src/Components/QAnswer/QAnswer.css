@@ -1,0 +1,125 @@
+.accordion-item {
+  
+    border-bottom: 2px solid #19191C !important;
+    border-radius: 0 !important;
+
+}
+
+#headingOne {
+  font-size: 1.5rem;
+  color: var(--Grayscale, #19191C);
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.625rem;  }
+  
+
+
+  
+  /* +  (plus) */
+  .accordion-button::after {
+    background-image: none;
+    content: "+";
+    position: absolute;
+    top: 20%;
+    display: block;
+    width: 15px;
+    height: 15px;
+    font-size: 40px;
+    left: 97%;
+   margin-left: 20px;
+   box-sizing: border-box;
+    font-weight: normal;
+  }
+  
+  
+  
+  /* element */
+  .ro-accordion .accordion-item {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  button.accordion-button.collapsed {
+    color: var(--Grayscale, #19191C);
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.625rem;   }
+  button.accordion-button.collapsed:focus{
+    border: none;
+    outline: none;
+  }
+  
+  .ro-accordion .card-body {
+    margin-top: 30px;
+  }
+  
+  .accordion-button:focus,
+  .accordion-button:hover {
+    border: none;
+  }
+  
+  
+  /* - (minus)*/
+  .accordion-button:not(.collapsed)::after {
+    background-image: none;
+    content: "-";
+    position: absolute;
+    top: 50%;
+    display: block;
+    font-weight: bolder;
+    height: 15px;
+    width: 15px;
+    font-size: 40px;
+    left: 97%;
+    font-weight: normal;
+  }
+  
+  .accordion .accordion-item,
+  .accordion-item .accordion-header button {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .accordion-item .accordion-header button {
+    border: none;
+    outline: none;
+  }
+
+  .RO-QAbtn{
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+  }
+  
+  .RO-QAbtn button{
+    width: fit-content !important;
+    background-color: var(--Grayscale, #19191C) !important;
+     color: var(--Grayscale, #EFEFF2);
+    border-radius: 0;
+    font-family: Inter;
+    font-size: 1.125rem !important;
+    font-weight: 700;
+box-sizing: border-box;
+margin-top: -15px;
+padding: 0.75rem 0.9375rem !important;
+
+
+    
+  }
+
+  @media screen and(max-width:750px){
+    html{
+      font-size: 12px;
+    }
+    .RO-QAbtn{
+      flex-direction: column-reverse;
+    }
+    
+  }

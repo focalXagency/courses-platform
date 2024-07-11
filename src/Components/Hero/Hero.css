@@ -1,0 +1,132 @@
+.ma-hero {
+    width: 100%;
+    height: 104vh;
+    background: url(./../../assets/img/gradient.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    border: 2px solid black;
+}
+
+.ma-hero-two {
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.ma-hero-left h1 {
+    width: 648px;
+    color: #19191C;
+    font-size: 58px;
+    font-weight: 700;
+}
+
+.ma-hero-left p {
+    color: #19191C;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.ma-hero-left p a {
+    color: #504DEE;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.ma-hero-left button {
+    padding: 16px 37px;
+    background: #504DEE;
+    color: var(--Grayscale, #FBFBFC);
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.ma-hero-timer {
+    display: flex;
+    align-items: flex-end;
+}
+
+.ma-hero-right img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 75px;
+    z-index: 2;
+}
+
+.ma-hero-btn button {
+    padding: 16px 36px;
+    border: 2px solid #19191C;
+    color: #19191C;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    background-color: transparent;
+}
+
+.ma-hero-btn1 {
+    position: absolute;
+    bottom: 300px;
+    left: 450px;
+}
+
+.ma-hero-btn2 {
+    position: absolute;
+    bottom: 450px;
+    left: 310px;
+}
+
+.ma-hero-btn3 {
+    position: absolute;
+    bottom: 350px;
+    left: 100px;
+}
+
+.ma-hero-btn4 {
+    position: absolute;
+    bottom: 230px;
+    left: 0px;
+}
+
+.ma-hero-btn5 {
+    position: absolute;
+    bottom: 120px;
+    left: -100px;
+}
+
+.ma-hero-btn6 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+@media screen and (max-width:1400px) {
+    .ma-hero-two {
+        flex-wrap: wrap !important;
+        margin-top: 0px;
+    }
+
+    .ma-hero-left {
+        margin: 0 auto;
+        text-align: center;
+
+    }
+
+    .ma-hero-timer {
+        display: none;
+    }
+
+    .ma-hero-right {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .ma-hero-left h1 {
+        width: auto;
+        font-size: 50px;
+    }
+}

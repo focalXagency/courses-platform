@@ -1,0 +1,59 @@
+.RO-ArtPopular{
+    background: var(--Grayscale, #FBFBFC);
+    color: var(--Grayscale, #19191C);
+    font-family: Inter;
+    padding: 100px 8rem;
+    display: flex;
+
+    flex-direction: column;
+    gap: 8rem;
+}
+#RO-poulargap{
+    gap: 4rem!important;
+}
+
+.RO-ArtPopular img:nth-child(1){
+    height: 280px;
+
+}
+.RO-ArtPopular img:nth-child(2){
+    margin-top: 5rem;
+    margin-left: 20px;
+}
+
+
+@media screen and (max-width:992px) {
+     html{
+        font-size: 12px;
+     }
+
+     .RO-ArtPopular div:nth-child(2){
+        flex-wrap: wrap;
+        gap: 40px !important;
+        width: 90%;
+    
+     }
+    
+    
+}
+
+@media screen and (max-width:750px) {
+    
+
+    .RO-ArtPopular{
+        padding: 100px 4rem;
+
+    }
+    .RO-ArtPopular img:nth-child(1){
+        max-width: 206px !important;
+        width: 70% !important;
+        height: 80%;
+    
+    }
+    .RO-ArtPopular img:nth-child(2){
+       max-width: 240px !important;
+       width: 50% !important;
+    }
+    
+    
+}

@@ -1,0 +1,21 @@
+.RO-FooterLink ul li a {
+    color: var(--Grayscale, #EFEFF2) !important;
+
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+text-decoration: none !important;
+}
+
+.RO-FooterLink ul li{
+    line-height: 40px !important;
+}
+
+
+.RO-FooterLink h5{
+    color: var(--Grayscale, #FBFBFC);
+
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+}

@@ -1,0 +1,61 @@
+.ma-nav2-card {
+    margin: 168px 0;
+}
+
+.ma-nav2-underline {
+    width: 244px;
+    height: 2px;
+    background: #19191C;
+    margin-bottom: 48px;
+}
+
+.ma-card-package h2 {
+    color: #19191C;
+    font-size: 34px;
+    font-weight: 700;
+    width: 640px;
+}
+
+.ma-card-package a {
+    color: #504DEE;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.ma-nav2-p {
+    width: 588px;
+    color: #19191C;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 27px;
+    margin-bottom: 80px;
+}
+
+
+@media screen and (max-width:780px) {
+    .ma-nav2-card {
+        margin: 100px 0;
+    }
+
+    .ma-card-package .ma-worp {
+        justify-content: center !important;
+        gap: 20px !important;
+    }
+
+    .ma-card-package h2, .ma-nav2-p, .ma-nav2-underline {
+        width: auto;
+        text-align: center;
+    }
+
+    .ma-nav2-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .ma-clock img {
+        display: none;
+    }
+
+}

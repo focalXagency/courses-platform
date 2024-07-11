@@ -1,0 +1,54 @@
+.ma-training-section {
+    padding: 100px 0;
+}
+
+.ma-training-h h1, .ma-training-part h1 {
+    width: 445px;
+    color: #19191C;
+    font-size: 58px;
+    font-weight: 700;
+}
+
+.ma-training-underline {
+    width: 345px;
+    height: 4px;
+    background: #19191C;
+
+}
+
+.ma-training-part {
+    width: 370px;
+    height: 166px;
+}
+
+.ma-training-part p {
+    width: 299px;
+    color: #6D6D77;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+@media screen and (max-width:600px) {
+
+    .ma-training-h h1 {
+        width: auto;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .ma-training-part {
+        width: 250px;
+        height: 166px;
+    }
+
+    .ma-training-part h1 {
+        width: auto;
+        font-size: 50px;
+    }
+
+    .ma-training-part p {
+        width: auto;
+    }
+
+}

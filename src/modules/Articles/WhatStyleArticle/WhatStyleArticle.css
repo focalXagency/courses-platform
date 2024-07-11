@@ -1,0 +1,6 @@
+.RO-what{
+     background: var(--Grayscale, FBFBFC);
+    color: var(--Grayscale, #19191c);
+    font-family: Inter;
+    padding: 100px 8rem;
+}

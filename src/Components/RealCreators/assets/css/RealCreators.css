@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.Creators {
+  background-color: var(--Grayscale, #FBFBFC);
+  color: var(--Grayscale, #19191C);
+  font-family: Inter;
+  text-align: left;
+  padding: 100px 8rem;
+}
+
+/* h2 */
+.RO-SectionTitle {
+  color: var(--Grayscale, #19191C);
+  font-family: Inter;
+  font-size: 3.75rem;
+  font-weight: 700;
+  text-align: left;
+  margin: 0;
+}
+
+/* p under h2 */
+.CreatorTitleP {
+  width: 50%;
+}
+
+/* p and see more */
+.RO-CreatorMarginP {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+
+/* arrow icons  */
+.CreatorButton {
+  align-self: flex-end;
+  padding: 0%;
+  margin: 0;
+  background-color: transparent;
+}
+
+.CreatorButton:hover {
+  border: none;
+}
+
+.RO-CreatorCards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 18px;
+}
+
+.RO-Card2 {
+  margin-top: 112px;
+}
+
+@media screen and (max-width:992px) {
+
+  html {
+    font-size: 12px;
+  }
+
+  .RO-CreatorCards {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 50px;
+    margin: auto;
+
+
+  }
+
+  .RO-Card2 {
+    margin-top: 0;
+  }
+
+}
+
+@media screen and (max-width:750px) {
+  .Creators {
+    padding: 100px 4rem;
+
+  }
+
+  .RO-CreatorCards {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 50px;
+
+
+  }
+}

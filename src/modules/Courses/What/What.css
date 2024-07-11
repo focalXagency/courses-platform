@@ -1,0 +1,77 @@
+.ma-what-section {
+    background-color: #EFEFF2;
+    padding: 100px 0;
+}
+
+.ma-what-part h1 {
+    width: 445px;
+    font-size: 58px;
+    font-weight: 700;
+}
+
+.ma-what-part p {
+    width: 365px;
+    color: #6D6D77;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.ma-what-part a button {
+    padding: 16px 36px;
+    border: 1px solid #19191C;
+    background: #19191C;
+    color: #FBFBFC;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+.ma-what-cardOne {
+    width: 345px;
+    height: 456px;
+    background: #FBFBFC;
+    margin-top: 141px;
+}
+
+.ma-what-cardTwo {
+    width: 467px;
+    height: 527px;
+    background: #FBFBFC;
+}
+
+.ma-what-cardTwo h3 {
+    color: Grayscale, #19191C;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 28px;
+}
+
+@media screen and (max-width:500px) {
+    .ma-what-section {
+        height: 100%;
+    }
+
+    .ma-what-part h1, .ma-what-part p {
+        width: auto;
+        text-align: center;
+    }
+
+    .ma-what-part a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+
+    .ma-what-cardOne, .ma-what-cardTwo {
+        width: 300px;
+        height: 400px;
+        margin-top: 50px;
+    }
+
+    .ma-what-cardTwo img {
+        width: 273px;
+        height: 295px;
+    }
+}

@@ -1,0 +1,40 @@
+.ma-section-allSliders {
+    place-items: center;
+}
+
+.ma-slider {
+    height: 250px;
+    width: 90%;
+    overflow: hidden;
+}
+
+.ma-slider-track {
+    width: calc(250px *12);
+    animation: scroll 40s linear infinite;
+}
+
+.ma-slide {
+    height: 100px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.ma-hero-btn0 {
+    display: inline-flex;
+    padding: 16px 36px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 2px solid var(--Grayscale, #19191C);
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-250px*9));
+    }
+}

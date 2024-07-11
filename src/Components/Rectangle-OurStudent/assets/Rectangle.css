@@ -1,0 +1,47 @@
+.Ro-Rectangle{
+  width: 95%;
+border: 2px solid var(--Grayscale, #19191C);
+padding: 3rem;
+
+}
+
+.RO-RecSduareImg{
+    width: 3.375rem;
+    height: 3.375rem;
+    flex-shrink: 0;
+    border: 2px solid var(--Grayscale, #19191C);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.RO-RecText{
+    width: 95%;
+    text-align: left;
+    margin-top: 48px;
+    margin-bottom: 48px;
+
+  }
+  .RO-RecTitle {
+    gap: 12px;
+  }
+  .RO-RecWork{
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .RO-h3Title{
+    margin-top: 0;
+    margin-bottom: 0;
+    
+  }
+@media screen  and(max-width:992px){
+  html{
+    font-size: 12px;
+  }
+  .Ro-Rectangle{
+    width: 90% !important;
+    margin: auto;
+  }
+
+  
+}
